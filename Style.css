@@ -1,0 +1,343 @@
+.header{
+  display:flex;
+  justify-content: space-between;
+  background: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top:1%;
+  z-index:5;
+}
+.header-logo{
+  background: url("https://www.docplanner.com/img/logo-default-group-en.svg?v=1");
+  width:300px;
+  height:50px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin-left:15%;
+
+}
+.header-menu{
+  height:50px;
+  margin-right:15.5%;
+}
+.header-menu-link{
+  text-decoration:none;
+  font-size:20px;
+  padding-right:1%;
+  color: #ababab;
+  margin-left:20px;
+}
+.header-menu-nav{
+  display:flex;
+  justify-content:space-between;
+  padding-top:2%;
+}
+.header-menu-link-1{
+  color: #00bfa5;
+  width:80px;
+}
+.header-menu-link-2:hover{
+  color: #00bfa5;
+}
+.header-menu-link-3:hover{
+  color: #00bfa5;
+}
+.section{
+  margin:0 15%;
+}
+
+.section-1-title-logo{
+  background: url("https://www.docplanner.com/img/sygnet.png");
+  height:50px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin:8% 0 0 50%;
+}
+.section-1-title-text{
+  font-size:40px;
+  color: #00bfa5;
+  text-align:center;
+}
+.section-1-core-text{
+  font-size:19px;
+  color:grey;
+  margin-bottom:15%;
+}
+.section-1-core{
+  display:flex;
+  justify-content: space-between;
+  
+}
+.section-1-core-1-image-part{ 
+  background-color:#00bfa5;
+  height:500px;
+  border-radius:10px;
+  padding-left:40px;
+}
+.section-1-core-image-part-title{
+  font-size:20px;
+  color:#e0e7e7;
+  padding-top:2%;
+}
+.section-1-core-image-part-text{
+  font-size:30px;
+  color:white;
+}
+.section-1-core-1-image-part-button-imagemac{
+  position: relative;
+}
+.section-1-core-1-image-part-imagemac{
+  background: url("https://www.docplanner.com/img/screen-marketplace@2x.png");
+  background-repeat:no-repeat;
+  height:300px;
+  background-size: cover;
+  margin-left:150px;
+}
+.section-1-core-1-image-part-select-bar{
+  position:absolute;
+  top:0px;
+  width:30%;
+  height:10%;
+  border-radius:5px;
+}
+
+.section-1-core-2-image-part{ 
+  background-color:#3d83df;
+  height:500px;
+  border-radius:10px;
+  padding-left:40px;
+}
+.section-1-core-2-image-part-imagemac{
+  background: url("https://www.docplanner.com/img/screen-saas@2x.png");
+  background-repeat:no-repeat;
+  height:300px;
+  background-size: cover;
+  margin-left:150px;
+}
+.section-2{
+  display:flex;
+}
+.section-2-text{
+  flex:1;
+  font-size:30px;
+  color: #00bfa5;
+}
+.section-2-links{
+  flex:3;
+  margin-top:3%;
+  font-size:25px;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height:100px;
+  padding:1% 0 0 1%;
+}
+.section-2-links-item{
+  color:#d3cfc9;
+  height:50px;
+}
+
+.section-3{
+  background-color:#9fe7eb;
+  margin:0 0;
+  padding:0 15%;
+  display:flex;
+}
+.section-3-paragraph{
+  flex:1;
+}
+.section-3-paragraph-title{
+  font-size:30px;
+  color: #00bfa5;
+}
+.section-3-paragraph-text{
+  font-size:20px;
+  color:#bbf9f6;
+}
+.section-3-boxs{
+  flex:1;
+  display:flex;
+  padding: 30px 0;
+}
+.section-3-boxs-one-box {
+  background-color:white;
+  border-radius:10px;
+  width:230px;
+  height: 230px;
+}
+.section-3-boxs-set-1{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items: flex-end;
+}
+.section-3-boxs-set-2{
+  flex:1;
+  display:flex;
+  flex-direction:column;
+  align-items: flex-end;
+}
+.section-3-boxs-set-1-box-1{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.section-3-boxs-set-1-box-2{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.section-3-boxs-set-2-box-1{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.section-3-boxs-set-2-box-2{
+  margin-top:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+}
+.section-3-boxs-set-box-title{
+  color: #00bfa5;
+  font-size:20px;
+  text-align:center;
+}
+.section-3-boxs-set-box-text{
+  font-size:15px;
+  color:#bbf9f6;
+  text-align:center;
+}
+
+.section-3-boxs-set-1-box-1-flag{
+  background: url("https://www.docplanner.com/img/flag.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin:8% 0 0 45%;
+}
+.section-3-boxs-set-1-box-2-flag{
+  background: url("https://www.docplanner.com/img/patients.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin:8% 0 0 45%;
+}
+.section-3-boxs-set-2-box-1-flag{
+  background: url("https://www.docplanner.com/img/visits.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin:8% 0 0 45%;
+}
+.section-3-boxs-set-2-box-2-flag{
+  background: url("https://www.docplanner.com/img/doctors.png");
+  height:30px;
+  background-repeat:no-repeat;
+  background-size: contain;
+  margin:8% 0 0 45%;
+}
+.section-4{
+  margin-bottom:4%;
+  height:1050px;
+}
+.section-4-title{
+  text-align:center;
+  font-size:25px;
+  color:#00bfa5;
+  margin-top:80px;
+}
+.section-4-text{
+  text-align:center;
+  color:gray;
+  margin-bottom:80px;
+}
+.section-4-boxs-item{
+  width:340px;
+  height: 380px;
+  border-radius:10px;
+  position: relative;
+}
+.section-4-boxs-item:hover{
+  cursor:pointer;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+.section-4-boxs-item-city{
+  position: absolute;
+  bottom:10px;
+  left:20px;
+}
+.section-4-boxs-item-button{
+  position:absolute;
+  bottom:25px;
+  right:20px;
+  color:white;
+  background-color: blue;
+  border:none;
+  border-radius:5px;
+  height:25px;
+  width:110px;
+  font-size:10px;
+}
+.section-4-boxs-item-button:hover{
+  cursor:pointer;
+}
+.section-4-boxs-item-1-image{
+  background: url("https://www.docplanner.com/images/warsaw.png");
+  height:340px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+.section-4-boxs-item-2-image{
+  background: url("https://www.docplanner.com/images/barcelona.png");
+  height:340px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+.section-4-boxs-item-3-image{
+  background: url("https://www.docplanner.com/images/istanbul@2x.png");
+  height:340px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+.section-4-boxs-item-4-image{
+  background: url("https://www.docplanner.com/images/rome@2x.png");
+  height:340px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+.section-4-boxs-item-5-image{
+  background: url("https://www.docplanner.com/images/mexico-city@2x.png");
+  height:340px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+.section-4-boxs-item-6-image{
+  background: url("https://www.docplanner.com/images/curitiba@2x.png");
+  height:340px;
+  background-repeat:no-repeat;
+  background-size: contain;
+}
+.section-4-boxs-item-image{
+  border-radius:10px;
+}
+.section-4-boxs-ligne-1{
+  display:flex;
+  justify-content:space-between;
+}
+.section-4-boxs-ligne-2{
+  display:flex;
+  justify-content:space-between;
+  margin-top:25px;
+}
+.footer{
+  border-top:1px solid grey;
+  text-align:center;
+  color:grey;
+}
+.footer-countries a{
+  text-decoration:none;
+}
